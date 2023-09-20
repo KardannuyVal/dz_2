@@ -1,13 +1,13 @@
 ﻿using System;
-namespace Задание1
+namespace  labotatory
 {
 
-    class МирТрудМай
+    class labotatory_2chapter
    {
        
       static void Main(string[] args)
       {              
-        Console.WriteLine("Второе задание:");
+        Console.WriteLine("Первое задание:");
         Console.Write("Введите ваше имя:");
         string? z=Console.ReadLine();
         Console.WriteLine($"Здраствуйте,{z}");
@@ -63,14 +63,7 @@ namespace Задание1
        double x2 = (-w - Math.Sqrt(D)) / (2 * q);
            
        Console.WriteLine($" x1={x1}, x2={x2}");
-           }
-
-        
-        
-
-          
-      }
-
-       
+           }          
+      }       
     }
 }
